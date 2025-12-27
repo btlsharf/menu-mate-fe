@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
-import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { AuthProvider, useAuth } from './contexts/UserContext';
 import Navigation from './components/Layout/Navigation';
 import Login from './components/Auth/Login';
-import Signup from './components/Auth/Signup';
+import Signup from './components/Auth/SignUp';
 import MenuBrowser from './components/Menu/MenuBrowser';
-import Checkout from './components/Orders/Checkout';
-import OrderHistory from './components/Orders/OrderHistory';
+import Checkout from './components/Order/Checkout';
+import OrderHistory from './components/Order/OrderHistory';
 import AdminDashboard from './components/Admin/AdminDashboard';
 
 function AppContent() {
