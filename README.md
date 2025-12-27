@@ -1,5 +1,7 @@
 # MenuMate - Online Menu & Ordering Platform
 
+https://imgur.com/a/IDsFQK4
+
 ## Description
 
 MenuMate is a full-stack web application that allows users to browse a restaurant's digital menu, create an account, and place pickup or delivery orders. Authenticated users can manage their own orders, while administrators can securely manage menu items and categories through a protected admin interface.
