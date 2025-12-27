@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../../contexts/UserContext';
 
 export default function Login({ onToggle }) {
   const [email, setEmail] = useState('');

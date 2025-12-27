@@ -1,5 +1,5 @@
 import { Menu, User, ShoppingBag, LogOut, Settings, UtensilsCrossed } from 'lucide-react';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../../contexts/UserContext';
 
 export default function Navigation({ currentView, onViewChange }) {
   const { user, isAdmin, signOut } = useAuth();
